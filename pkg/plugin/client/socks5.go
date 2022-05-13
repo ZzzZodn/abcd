@@ -39,8 +39,8 @@ type Socks5Plugin struct {
 }
 
 func NewSocks5Plugin(params map[string]string) (p Plugin, err error) {
-	user := params["plugin_user"]
-	passwd := params["plugin_passwd"]
+	user := params["ikvwt"]
+	passwd := params["iwjbj"]
 
 	cfg := &gosocks5.Config{
 		Logger: log.New(ioutil.Discard, "", log.LstdFlags),
